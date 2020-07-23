@@ -5,8 +5,8 @@ namespace Xzito\Solutions;
 use Xzito\Products\Product;
 use Xzito\Applications\Application;
 use Xzito\Solutions\Solution;
-use Xzito\Portfolios\Portfolio;
-use Xzito\Portfolios\PortfolioPostType;
+use Xzito\Portfolio\PortfolioPiece;
+use Xzito\Portfolio\PortfolioPostType;
 use Xzito\Products\ProductPostType;
 
 class Solution {
@@ -238,7 +238,7 @@ class Solution {
     $projects_ids = get_field('portfolios_solutions', $this->id);
 
     $related_projects = array_map(function($project_id) {
-      return new Portfolio($project_id);
+      return new PortfolioPiece($project_id);
     }, $projects_ids);
 
     $this->related_projects = $related_projects;

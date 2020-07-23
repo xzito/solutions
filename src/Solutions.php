@@ -57,7 +57,7 @@ class Solutions {
   }
 
   public function __construct() {
-    add_action('plugins_loaded', [$this, 'create_options_page']);
+    // add_action('plugins_loaded', [$this, 'create_options_page']);
     add_action('init', [$this, 'create_post_type'], 0);
     add_action('init', [$this, 'create_taxonomy'], 0);
     add_action('init', [$this, 'create_bulk_action'], 0);

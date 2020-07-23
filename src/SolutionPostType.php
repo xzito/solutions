@@ -11,7 +11,7 @@ class SolutionPostType {
   public const SLUG = 'solutions';
 
   private $cpt;
-  private $icon = 'dashicons-store';
+  private $icon = 'dashicons-star-filled';
 
   public function __construct() {
     $this->create_post_type();
