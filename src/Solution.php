@@ -191,7 +191,7 @@ class Solution {
   }
 
   private function set_image() {
-    $this->image = get_field('solution_images', $this->id)['main'];
+    $this->image = get_field('solution_images', $this->id)['card'];
   }
 
   private function set_products_heading() {

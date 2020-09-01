@@ -119,30 +119,6 @@
                     "max_height": "",
                     "max_size": "",
                     "mime_types": ""
-                },
-                {
-                    "key": "field_5ee715ee566ab",
-                    "label": "Main Image",
-                    "name": "main",
-                    "type": "image",
-                    "instructions": "",
-                    "required": 1,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "return_format": "id",
-                    "preview_size": "medium",
-                    "library": "all",
-                    "min_width": "",
-                    "min_height": "",
-                    "min_size": "",
-                    "max_width": "",
-                    "max_height": "",
-                    "max_size": "",
-                    "mime_types": ""
                 }
             ]
         },
@@ -592,5 +568,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "Solution Information",
-    "modified": 1595522720
+    "modified": 1598935108
 }
