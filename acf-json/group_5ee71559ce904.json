@@ -508,7 +508,7 @@
                 "id": ""
             },
             "post_type": [
-                "portfolio"
+                "portfolio_piece"
             ],
             "taxonomy": "",
             "filters": [
@@ -519,7 +519,9 @@
             ],
             "min": "",
             "max": "",
-            "return_format": "id"
+            "return_format": "id",
+            "show_column": 0,
+            "show_column_weight": 1000
         },
         {
             "key": "field_5ee7197370b0c",
@@ -568,5 +570,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "Solution Information",
-    "modified": 1598935108
+    "modified": 1599008623
 }

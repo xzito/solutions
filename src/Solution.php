@@ -239,7 +239,7 @@ class Solution {
 
     $related_projects = array_map(function($project_id) {
       return new PortfolioPiece($project_id);
-    }, $projects_ids);
+    }, self::find_published(PortfolioPostType::ID, $projects_ids));
 
     $this->related_projects = $related_projects;
   }
